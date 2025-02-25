@@ -1,6 +1,6 @@
 package com.webshop.service;
 
-import com.webshop.dto.Customer_DTO;
+import com.webshop.request_dto.Customer_DTO;
 import com.webshop.model.Customer;
 import com.webshop.repository.Customer_Repository;
 import org.springframework.beans.factory.annotation.Autowired;

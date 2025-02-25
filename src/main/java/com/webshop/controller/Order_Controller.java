@@ -1,5 +1,5 @@
 package com.webshop.controller;
-import com.webshop.dto.Order_DTO;
+import com.webshop.request_dto.Order_DTO;
 import com.webshop.model.Order;
 import com.webshop.service.Order_Service;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,7 +1,7 @@
 package com.webshop.service;
-import com.webshop.dto.Cart_Item_DTO;
-import com.webshop.dto.Customer_DTO;
-import com.webshop.dto.Order_DTO;
+import com.webshop.request_dto.Cart_Item_DTO;
+import com.webshop.request_dto.Customer_DTO;
+import com.webshop.request_dto.Order_DTO;
 import com.webshop.model.Cart_Item;
 import com.webshop.model.Customer;
 import com.webshop.model.Order;

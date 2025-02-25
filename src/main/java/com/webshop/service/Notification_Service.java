@@ -18,7 +18,7 @@ public class Notification_Service {
         Iterable<Product> products = productRepository.findAll();
         for (Product product : products) {
             if (product.getStock() < 5) {
-                emailSendingService.sendEmail("example@gmail.com", "Low Stock Alert", "Product "
+                emailSendingService.sendEmail("afreen.zehra1512@gmail.com", "Low Stock Alert", "Product "
                         + product.getName() + " is low on stock.");
             }
         }
